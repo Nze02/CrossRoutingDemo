@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossRouting", "CrossRouting\CrossRouting.csproj", "{90159CB2-C025-4692-B34A-949E5497CE93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project2", "Project2\Project2.csproj", "{02464D34-F404-49A1-AE46-2D973F4459EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90159CB2-C025-4692-B34A-949E5497CE93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90159CB2-C025-4692-B34A-949E5497CE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90159CB2-C025-4692-B34A-949E5497CE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90159CB2-C025-4692-B34A-949E5497CE93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02464D34-F404-49A1-AE46-2D973F4459EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02464D34-F404-49A1-AE46-2D973F4459EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02464D34-F404-49A1-AE46-2D973F4459EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02464D34-F404-49A1-AE46-2D973F4459EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B514945-AE98-4A5B-86B8-0653980FFBDD}
+	EndGlobalSection
+EndGlobal
