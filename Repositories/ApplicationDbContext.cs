@@ -2,10 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Text;
 
-namespace CrossRouting
+namespace Repositories
 {
     public class ApplicationDbContext : DbContext
     {

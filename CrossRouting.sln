@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossRouting", "CrossRoutin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{ABFA31BE-5936-4298-8483-3BC29D4BE3E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{F2202676-3881-4398-8E04-E719F4C7FFF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{ABFA31BE-5936-4298-8483-3BC29D4BE3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABFA31BE-5936-4298-8483-3BC29D4BE3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABFA31BE-5936-4298-8483-3BC29D4BE3E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2202676-3881-4398-8E04-E719F4C7FFF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2202676-3881-4398-8E04-E719F4C7FFF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2202676-3881-4398-8E04-E719F4C7FFF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2202676-3881-4398-8E04-E719F4C7FFF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
