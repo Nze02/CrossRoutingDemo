@@ -10,6 +10,7 @@ namespace Repositories.Repository
     {
         private ApplicationDbContext _db;
         private IEcoCompanyRepository ecoCompanyRepository;
+        private ICoinageCompanyRepository coinageCompanyRepository;
 
         public RepositoryManager(ApplicationDbContext db)
         {
@@ -24,6 +25,19 @@ namespace Repositories.Repository
                 }
 
                 return ecoCompanyRepository;
+            }
+        }
+
+        public ICoinageCompanyRepository CoinageCompanyRepository
+        {
+            get
+            {
+                if (coinageCompanyRepository == null)
+                {
+                    coinageCompanyRepository = new CoinageCompanyRepository(_db);
+                }
+
+                return coinageCompanyRepository;
             }
         }
     }

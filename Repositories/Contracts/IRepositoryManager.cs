@@ -7,5 +7,6 @@ namespace Repositories.Contracts
     public interface IRepositoryManager
     {
         IEcoCompanyRepository CompanyRepository { get; }
+        ICoinageCompanyRepository CoinageCompanyRepository { get; }
     }
 }
