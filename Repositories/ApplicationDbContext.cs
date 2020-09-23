@@ -1,4 +1,5 @@
 ﻿using CrossRouting.Models;
+using Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -13,5 +14,6 @@ namespace Repositories
         }
 
         public DbSet<EcoCompany> EcoCompany { get; set; }
+        public DbSet<CoinageCompany> CoinageCompany { get; set; }
     }
 }
