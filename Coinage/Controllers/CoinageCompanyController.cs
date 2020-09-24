@@ -21,13 +21,13 @@ namespace Coinage.Controllers
 
 
         //Get all EcoCompanies
-        [HttpGet]
-        public async Task<IActionResult> GetAllEcoCompanies()
-        {
-            var ecoCompanies = await _repository.CoinageCompanyRepository.GetAllEcoCompaniesAsync(trackChanges: false);
-            //var ecoCompaniesForOutputDto = _mapper.Map<IEnumerable<EcoCompanyForOutputDto>>(ecoCompanies);
+        //[HttpGet]
+        //public async Task<IActionResult> GetAllEcoCompanies()
+        //{
+        //    var ecoCompanies = await _repository.CoinageCompanyRepository.GetAllEcoCompaniesAsync(trackChanges: false);
+        //    //var ecoCompaniesForOutputDto = _mapper.Map<IEnumerable<EcoCompanyForOutputDto>>(ecoCompanies);
 
-            return Ok(ecoCompanies);
-        }
+        //    return Ok(ecoCompanies);
+        //}
     }
 }

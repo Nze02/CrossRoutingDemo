@@ -22,13 +22,13 @@ namespace CrossRouting.Controllers
 
 
         //Get all EcoCompanies
-        [HttpGet]
-        public async Task<IActionResult> GetAllEcoCompanies()
-        {
-            var ecoCompanies = await _repository.CompanyRepository.GetAllEcoCompaniesAsync(trackChanges: false);
-            //var ecoCompaniesForOutputDto = _mapper.Map<IEnumerable<EcoCompanyForOutputDto>>(ecoCompanies);
+        //[HttpGet]
+        //public async Task<IActionResult> GetAllEcoCompanies()
+        //{
+        //    var ecoCompanies = await _repository.CompanyRepository.GetAllEcoCompaniesAsync(trackChanges: false);
+        //    //var ecoCompaniesForOutputDto = _mapper.Map<IEnumerable<EcoCompanyForOutputDto>>(ecoCompanies);
 
-            return Ok(ecoCompanies);
-        }
+        //    return Ok(ecoCompanies);
+        //}
     }
 }
